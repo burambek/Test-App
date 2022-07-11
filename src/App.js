@@ -51,7 +51,7 @@ function App() {
               <p>Вологість</p>
             </div>
             <div className='wind'>
-              {data.wind ? <p>{data.wind.speed} км/г</p> : null}
+              {data.wind ? <p>{data.wind.speed.toFixed()} км/г</p> : null}
               <p>Швидкість вітру</p>
             </div>
           </div>
